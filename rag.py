@@ -87,7 +87,7 @@ Answer:"""
     answer = raw.replace(prompt, "").strip()
     answer = answer.split("\n")[0]
 
-    return raw 
+    return answer 
 
 
 # ==============================
